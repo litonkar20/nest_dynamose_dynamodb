@@ -27,7 +27,7 @@ export class UserController {
     return this.userService.updateUser(userDto);
   }
 
-  @Delete('delete/:id')
+  @Delete('delete')
   async deleteUser(@Body() id: string) {
     return this.userService.deleteUser(id);
   }
