@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { UserModule } from './user/module/user.module';
+import { UserModule } from './api/user/module/user.module';
 import { ConfigModule } from '@nestjs/config';
 
 @Module({
