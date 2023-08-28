@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import * as dynamoose from 'dynamoose';
-import { dynamooseConfig } from './config/dynamoose.config';
+import { dynamooseConfig } from './config/database/dynamoose.config';
 import { ValidationPipe } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 

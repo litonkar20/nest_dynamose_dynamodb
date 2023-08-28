@@ -26,14 +26,14 @@ export class CreateUserDto {
   mobile: number;
 
   @ApiProperty({
-    description: 'The mobile number of user',
+    description: 'The date of birth of the user',
     example: '1990-10-20',
   })
   @IsNotEmpty()
   dob: Date;
 
   @ApiProperty({
-    description: 'The mobile number of user',
+    description: 'Gender of the user',
     example: 'Male',
   })
   @IsNotEmpty()

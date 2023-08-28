@@ -53,8 +53,8 @@ export class DeleteUserDto {
     description: 'Unique id of user',
     example: '109e1b80-a2cf-4551-9b06-8ff9f48f9ed5',
   })
-  //@IsString()
-  //@Length(2, 100)
+  @IsString()
+  @Length(2, 100)
   id: string;
 }
 
