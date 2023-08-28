@@ -8,14 +8,17 @@ const userSchema = new dynamoose.Schema(
       hashKey: true,
       default: uuidv4(),
     },
+
     name: String,
     email: {
       type: String,
       required: true,
     },
+
     mobile: Number,
     dob: String,
     gender: String,
+
     isActive: {
       type: Boolean,
       default: true,

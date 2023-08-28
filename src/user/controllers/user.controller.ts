@@ -7,7 +7,7 @@ import {
   Put,
   Delete,
 } from '@nestjs/common';
-import { UserService } from '../service/user.service';
+import { UserService } from '../services/user.service';
 import { CreateUserDto } from '../dto/create-user.dto';
 import { ApiTags } from '@nestjs/swagger';
 import { DeleteUserDto, UpdateUserDto } from '../dto/update-user.dto';
